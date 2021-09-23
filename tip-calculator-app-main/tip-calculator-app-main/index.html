@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Space+Mono ">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <img class="logo" src="images/logo.svg" alt="logo-image">
+  <div class="total-card">
+    <div class="main-card">
+      <h1 class="bill-heading billing">Bill</h1>
+
+      <input onselect="keyup(this)" id="input1" class="bill billing bill-input" type="number" placeholder="0">
+      <h1 class="select-tip">Select Tip %</h1>
+      <div class="button-group">
+        <button  id="button-1" class="grid" type="button" value="5">5%</button>
+        <button  id="button-2" class="grid" type="button" value="10">10%</button>
+        <button  id="button-3" class="grid" type="button" value="15">15%</button>
+        <!-- <br> -->
+        <button  id="button-4" class="grid" type="button" value="25">25%</button>
+        <button  id="button-5" class="grid" type="button" value="50">50%</button>
+        <input onselect="keyup(this)" id="input2" class="grid button-custom" type="number" placeholder="Custom">
+        <h1 class="no-of-people-heading footer f1">Number of People</h1>
+        <p class="warning f1">Can't be zero</p>
+        <input id="input3" class="no-of-people footer f1" type="number" placeholder="0">
+      </div>
+      <div class="upper-card">
+        <h1 class="subhead"><span class="tip">Tip Amount</span><br>
+          <p>/ person</p>
+        </h1>
+        <p class="tip-amount">$0.00</p>
+        <h1 class="subhead1"><span>Total</span><br>
+          <p>/ person</p>
+        </h1>
+        <p class="total-amount">$0.00</p>
+
+        <button id="reset" class="button-reset" type="button">RESET</button>
+      </div>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>

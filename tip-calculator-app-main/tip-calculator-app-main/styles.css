@@ -1,0 +1,405 @@
+div {
+  display: flex;
+}
+
+input {
+  height: 25px;
+  text-align: right;
+  background-color: #f3f8fb;
+}
+
+body {
+  background-color: #c5e4e7;
+  padding: 2px;
+  height: 1024px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h1 {
+  font-size: 15px;
+  font-family: "Space Mono", sans-serif;
+  margin-left: 44.5px;
+  width: 150px;
+}
+
+.select-tip {
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+
+.billing {
+  position: relative;
+  top: 50px;
+}
+
+.bill {
+  width: 380px;
+  height: 45px;
+  background-image: url(images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 15px;
+  font-size: 24px;
+  border-radius: 5px;
+  margin-left: 44.5px;
+}
+
+.grid {
+  text-align: center;
+  width: 120px;
+  height: 50px;
+  margin: 10px 5px;
+  border: none;
+  font-size: 24px;
+  background-color: #00474b;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.button-custom {
+  background-color: #f6f9fc;
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+  border: 2px white solid;
+}
+
+.attribution {
+  width: 260px;
+  height: 10px;
+  position: relative;
+  top: 200px;
+  left: 600px;
+}
+
+.button-reset {
+  text-align: center;
+  width: 340px;
+  height: 50px;
+  margin: 10px 5px;
+  border: none;
+  font-size: 20px;
+  background-color: #0D686D;
+  font-weight: 600;
+  position: relative;
+  top: -160px;
+  left: 40px;
+  color: #065E62;
+}
+
+.no-of-people {
+  background-image: url(images/icon-person.svg);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 15px;
+  width: 382px;
+  height: 45px;
+  display: flex;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 87px;
+  height: 54px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 680px;
+}
+
+.main-card {
+  width: 920px;
+  height: 480px;
+  display: inline;
+  background-color: #fff;
+  position: relative;
+  top: 150px;
+  left: 260px;
+  border-radius: 50px;
+}
+
+.upper-card {
+  width: 420px;
+  height: 420px;
+  display: inline-block;
+  background-color: #00474b;
+  position: relative;
+  left: 20px;
+  top: -93px;
+  border-radius: 20px;
+}
+
+.upper-card h1 {
+  width: 120px;
+}
+
+.tip-amount {
+  position: relative;
+  font-size: 50px;
+  text-align: right;
+  width: 150px;
+  color: hsl(172, 67%, 45%);
+  font-weight: 900;
+  margin-left: 20px;
+  left: 205px;
+  top: -80px;
+}
+
+.total-amount {
+  position: relative;
+  font-size: 50px;
+  left: 225px;
+  top: -210px;
+  margin-top: 50px;
+  text-align: right;
+  width: 150px;
+  color: hsl(172, 67%, 45%);
+  font-weight: 900;
+}
+
+.button-group {
+  width: 410px;
+  height: 140px;
+  display: inline-block;
+  margin-left: 44.5px;
+  position: relative;
+  top: -150px;
+}
+
+.no-of-people-heading {
+  margin-left: 0px;
+  position: relative;
+  top: 5px;
+}
+
+.footer h1 {
+  position: relative;
+  top: 15px;
+}
+
+.subhead {
+  position: relative;
+  top: 60px;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+.subhead span,
+.subhead1 span {
+  color: hsl(185, 41%, 84%);
+}
+
+.subhead p,
+.subhead1 p {
+  font-size: 15px;
+  color: hsl(189, 41%, 97%);
+}
+
+.subhead1 {
+  position: relative;
+  font-size: 20px;
+  top: -100px;
+}
+
+.warning {
+  color: orange;
+  width: 150px;
+  position: relative;
+  display: inline-block;
+  top: -31px;
+  left: 250px;
+  font-weight: 600;
+  visibility: hidden;
+  font-family: "Space Mono", sans-serif;
+}
+
+input.footer {
+  position: relative;
+  top: -60px;
+  margin-top: 10px;
+}
+
+input {
+  color: hsl(183, 100%, 15%);
+  font-weight: 900;
+  border: 2px transparent solid;
+  font-family: "Space Mono", sans-serif;
+  color: hsl(186, 14%, 43%);
+}
+
+input:focus {
+  border: 2px solid hsl(172, 67%, 45%);
+  outline: none;
+}
+
+button:hover,
+.button-reset:hover {
+  background-color: #9FE8DF;
+  color: #014845;
+  font-weight: 600;
+}
+
+.button-selected {
+  background-color: #26C2AD;
+  color: #014845;
+  font-weight: 600;
+}
+
+@media (max-width: 375px) {
+  .main-card {
+    width: auto;
+    height: 970px;
+    display: inline-block;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50px 50px 0 0;
+    left: 0px;
+  }
+
+  .logo {
+    width: 87px;
+    height: 54px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 40%;
+  }
+
+  .button-group {
+    height: 300px;
+    width: 340px;
+    margin-left: 0px;
+  }
+
+  .bill,
+  .no-of-people {
+    width: 310px;
+  }
+
+  .grid {
+    width: 150px;
+    height: 50px;
+  }
+
+  .billing {
+    position: relative;
+    left: 30px;
+    margin-left: 0;
+  }
+
+  .select-tip {
+    margin-left: 30px;
+  }
+
+  .button-group {
+    margin-left: 30px;
+    position: relative;
+    top: 80px;
+  }
+
+  .upper-card {
+    width: 330px;
+    height: 260px;
+    top: 160px;
+    left: 25px;
+  }
+
+  /* .upper-card p {
+    font-size: 36px;
+    left: 160px;
+    margin-right: 10px;
+  } */
+
+  .upper-card h1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .subhead {
+    margin-left: 30px;
+    width: 130px;
+    top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .subhead1 {
+    position: relative;
+    top: -100px;
+  }
+
+  .warning {
+    left: 190px;
+  }
+
+  .button-reset {
+    width: 292px;
+    height: 52px;
+    left: 15px;
+    top: -200px;
+  }
+
+  .total-card {
+    margin-top: 30px;
+  }
+
+  .tip-amount {
+    width: 150px;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    position: relative;
+    top: -65px;
+    left: 140px;
+  }
+  .total-amount
+  {
+    width: 150px;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    position: relative;
+    top: -170px;
+    left: 160px;
+  }
+  html {
+    height: 940px;
+  }
+
+  .attribution {
+    left: 40px;
+    top: 1080px;
+  }
+
+  .tip {
+    display: inline-block;
+    width: 130px;
+  }
+
+  .subhead p,
+  .subhead1 p {
+    font-size: 15px;
+    color: hsl(189, 41%, 97%);
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-left: 20px;
+    position: relative;
+    left: -20px;
+  }
+
+  .subhead h1,
+  .subhead1 h1 {
+    padding: 5px;
+    margin-left: 20px;
+  }
+
+  .subhead {
+    margin-bottom: 45px;
+  }
+}
